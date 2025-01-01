@@ -152,3 +152,17 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--white-color);
 }
+
+/* Light Mode Styles */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--white-color);
+    color: var(--black-color);
+  }
+
+  .hero h1,
+  .hero h2,
+  .hero h3 {
+    color: var(--black-color);
+  }
+}
